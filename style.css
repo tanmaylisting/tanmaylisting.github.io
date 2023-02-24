@@ -1,0 +1,103 @@
+.logo {
+    top: 500px;
+    margin-left: 550px;
+    animation-name: anil;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anil {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.text1 {
+    font-family: monospace;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    color: white;
+
+
+}
+
+
+
+
+.expander {
+    color: white;
+    margin-top: 800px;
+}
+
+.but1 {
+    background-color: #4CAF50;
+    display: inline-block;
+    top: 150%;
+    left: 53%;
+    transform: translate(-120%, -53%);
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    animation-name: butani;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes butani {
+    from {
+        top: 0%;
+        transform: translate(-0%);
+
+    }
+}
+
+.text2 {
+    font-family: monospace;
+    color: black;
+    top: 120%;
+    left: 55%;
+    transform: translate(-120%, -50%);
+    position: absolute;
+    animation-name: ani1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes ani1 {
+    from {
+        left: 0%;
+        transform: translate(-0%);
+    }
+}
+
+.a2 {
+    font-family: monospace;
+    color: black;
+    top: 130%;
+    left: 70%;
+    transform: translate(-120%, -50%);
+    position: absolute;
+    animation-name: ani2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+
+}
+
+@keyframes ani2 {
+    from {
+        right: 0%;
+        transform: translate(-0%);
+        color: white;
+        
+    }
+
+  
+    
+}
+
