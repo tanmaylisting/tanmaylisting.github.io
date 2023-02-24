@@ -1,0 +1,45 @@
+.circle {
+    top: 18px;
+    left: 750px;
+    position: absolute;
+    animation-name: ani2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani2 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.text {
+    font-family: monospace, Helvetica, Impact, cursive ;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    color: black;
+    font: Impact;
+    animation-name: ani1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+    background-color: whitesmoke;
+
+}
+
+@keyframes ani1 {
+    from {
+        color: red;
+        
+        
+    }
+
+    to {
+        color: blue;
+        
+        
+    }
+
+
+}
